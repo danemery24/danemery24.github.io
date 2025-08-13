@@ -69,6 +69,7 @@ nav {
     background-repeat: no-repeat;  /* stops it from tiling */
     padding: 110px 20px 120px 20px;
     text-align: center;
+    min-height: 50vh;
 }
 #hero h1 {
     font-family: Georgia;
@@ -77,21 +78,21 @@ nav {
     color: #fff;
     max-width: 800px;
     margin-left: auto;
-    margin-right: 30%;
+    margin-right: 25%;
     margin-top: auto;
     margin-bottom: 0%;
     text-align: right;
 }
 #hero p {
     font-family: 'arial';
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 200;
     font-style: italic;
     margin-bottom: 10px;
     color: #fff;
     max-width: 800px;
     margin-left: auto;
-    margin-right: 29.2%;
+    margin-right: 24.8%;
     margin-top: auto;
     margin-bottom: 1%;
     text-align: right;
