@@ -22,6 +22,7 @@ h3 {
 p {
     color: #4e4e4e;
     font-size: 1.2em;
+    line-height: 1.6;
 }
 * {
     box-sizing: border-box;
@@ -182,7 +183,15 @@ footer p {
 
 .about-text {
   margin-top: 30px;
+  text-align: justify;
 }
+.section-divider {
+  border: none;
+  border-top: 2px solid #999;
+  margin: 3rem auto;
+  width: 100%;         /* Narrower line */
+}
+
 
 
 
