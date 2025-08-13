@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dan Emery – Projects</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/favicon1.png">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <nav>
+            <div class="logo">
+                <a href="index.html">
+                <img src="images/dan-logo.jpg" alt="Dan Emery logo" />
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="projects">
+                <h1>Projects...</h1>
+                <div class="project-images">
+                    <h3>Motor Control Panel</h3>
+                    <p>Below is a project that involved designing the PLC code and HMI touchscreen
+                    interface for a workshop test panel.<br><br>The panel included 8 motor drives that
+                    could be ran individually in manual, or according to preset automatic modes.</p>
+                    <img src="images/panel-home.png" alt="Panel Home" />
+                    <p>This is a caption</p>
+                    <img src="images/panel-drives1.png" alt="Panel Drives 1" />
+                </div>
+            <!-- You can add project cards or sections here -->
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Dan Emery</p>
+        </footer>
+    </div>
+    <button id="backToTop" title="Back to top">back to top</button>
+    <script>
+        // Show button after scrolling 300px
+        window.onscroll = function() {
+            const btn = document.getElementById("backToTop");
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+
+        // Scroll to top on click
+        document.getElementById("backToTop").onclick = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+    </script>
+</body>
+</html>

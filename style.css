@@ -1,0 +1,189 @@
+/* This styles the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* light grey */
+    margin: 0;
+    padding: 0;
+}
+/* This targets the main heading */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #163E64;
+    text-align: left;
+    padding: 20px;
+    padding-left: 0px;
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 1.5em;
+    color: #4e4e4e;
+}
+/* This targets all paragraphs */
+p {
+    color: #4e4e4e;
+    font-size: 1.2em;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #163E64;
+    padding-right: 30px;
+}
+#about, #contact, #projects {
+    margin: 50px 250px;
+}
+.logo img {
+    height: 100px;
+    width: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 15px 20px; /* Makes the clickable area bigger */
+    display: inline-block; /* Required for padding to apply properly */
+}
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+#hero {
+    background-image: url("images/dan-hero.jpg");
+    background-size: cover;
+    background-position: center;   /* centers the image */
+    background-repeat: no-repeat;  /* stops it from tiling */
+    padding: 110px 20px 120px 20px;
+    text-align: center;
+}
+#hero h1 {
+    font-family: Georgia;
+    font-weight: 650;
+    font-size: 3em;
+    color: #fff;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: 30%;
+    margin-top: auto;
+    margin-bottom: 0%;
+    text-align: right;
+}
+#hero p {
+    font-family: 'arial';
+    font-size: 1.5em;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #fff;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: 29.2%;
+    margin-top: auto;
+    margin-bottom: 1%;
+    text-align: right;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  min-height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* This fills the space between header and footer */
+}
+
+/* Optional footer styling */
+footer {
+  background-color: #163E64;
+  color: white;
+  text-align: center;
+  padding: 0px;
+}
+footer p {
+    color: white;
+}
+.project-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.project-images img {
+    max-width: 90%;
+    height: auto;
+    margin: 20px 0;
+}
+#backToTop {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99;
+    background-color: #426485;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+    transition: opacity 0.3s ease;
+}
+
+#backToTop:hover {
+    background-color: #0f2c46;
+}
+.about-section {
+  margin: 60px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 20px;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  color: #163E64;
+  margin: 0;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.about-text {
+  margin-top: 30px;
+}
+
+
+
+
+
